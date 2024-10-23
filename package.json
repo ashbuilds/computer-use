@@ -1,0 +1,42 @@
+{
+  "name": "anthropic-computer-use-demo",
+  "version": "1.0.0",
+  "description": "TypeScript implementation of Anthropic's computer use demo",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "jest",
+    "test:basic": "ts-node src/examples/basic-test.ts",
+    "test:browser": "ts-node src/examples/browser-test.ts",
+    "lint": "eslint . --ext .ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.1",
+    "@types/node": "^20.0.0",
+    "base64-js": "^1.5.1",
+    "child_process": "^1.0.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "jsonschema": "^1.4.1",
+    "robotjs": "^0.6.0",
+    "screenshot-desktop": "^1.15.0",
+    "sharp": "^0.33.2",
+    "socket.io": "^4.7.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.0.0",
+    "@types/screenshot-desktop": "^1.12.3",
+    "@types/uuid": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  }
+}
