@@ -56,7 +56,7 @@ pnpm install
 pnpm run build
 
 # Run example
-pnpm run test:example
+pnpm run test:basic
 ```
 
 ## Basic Usage
