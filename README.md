@@ -1,4 +1,4 @@
-# Claude Computer use Implementation in Nodejs
+# Anthropic's Computer use implementation in Nodejs
 
 A Node.js/TypeScript port of [Anthropic's official Python computer-use demo](https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo). This implementation provides a complete TypeScript version of Claude's computer control capabilities, allowing Claude to interact with your computer through mouse movements, keyboard input, and screen captures.
 
